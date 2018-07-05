@@ -37,7 +37,7 @@ class Graph(object):
             return -1;    
         return self.nodes[target_node].min_distance;
 	
-	def print_distance(self, actual_start_node):        
+    def print_distance(self, actual_start_node):        
         for i in range(self.number_of_nodes):          
             if i == actual_start_node.name:            
                 continue;        
