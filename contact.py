@@ -2,7 +2,7 @@
 
 class Node:
     
-    def __init__(self):
+    def __init__(self)
         self.counter = 0;
         self.nodes_ref = {};
         self.is_end_word = False;
