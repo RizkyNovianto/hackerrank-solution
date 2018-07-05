@@ -32,7 +32,7 @@ class Graph(object):
         self.nodes[node_x].adjacencies_list.append(new_edge_x);
         self.nodes[node_y].adjacencies_list.append(new_edge_y);
 	
-	def get_distance(self, target_node):
+    def get_distance(self, target_node):
         if self.nodes[target_node].min_distance == sys.maxsize:           
             return -1;    
         return self.nodes[target_node].min_distance;
